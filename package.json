@@ -6,12 +6,17 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "postinstall": "mkdir -p public/slds && cp node_modules/@salesforce-ux/design-system/assets/styles/salesforce-lightning-design-system.min.css public/slds/ && cp -r node_modules/@salesforce-ux/design-system/assets/icons public/slds/ && cp -r node_modules/@salesforce-ux/design-system/assets/images public/slds/"
   },
   "dependencies": {
+    "@salesforce-ux/design-system": "^2.29.0",
+    "framer-motion": "^12.38.0",
+    "lucide-react": "^1.0.1",
     "next": "16.2.1",
     "react": "19.2.4",
-    "react-dom": "19.2.4"
+    "react-dom": "19.2.4",
+    "recharts": "^3.8.0"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
