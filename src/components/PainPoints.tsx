@@ -66,7 +66,7 @@ export default function PainPoints() {
                   <p className="text-sm leading-relaxed text-green-800">{responses[i]}</p>
                 </div>
                 <div className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-green-500 text-xs font-bold text-white">
-                  JN
+                  GT
                 </div>
               </div>
             </motion.div>

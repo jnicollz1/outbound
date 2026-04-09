@@ -33,14 +33,14 @@ export default function CTABanner() {
           </p>
           <div className="mt-8 flex flex-col items-center justify-center gap-3 sm:flex-row">
             <a
-              href="mailto:jake@jakeoutbound.com"
+              href="#contact-placeholder"
               className="group inline-flex items-center gap-2 rounded-full bg-white px-8 py-3.5 text-base font-semibold text-green-700 shadow-lg transition-all hover:bg-green-50 hover:shadow-xl"
             >
-              jake@jakeoutbound.com
+              Get in Touch
               <ArrowRight size={18} className="transition-transform group-hover:translate-x-1" />
             </a>
             <a
-              href="https://www.linkedin.com/in/jake-nicoll-91b32a26a/"
+              href="#linkedin-placeholder"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 rounded-full border border-white/30 px-6 py-3.5 text-base font-semibold text-white transition-all hover:bg-white/10"

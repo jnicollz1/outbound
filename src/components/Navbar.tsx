@@ -26,7 +26,7 @@ export default function Navbar() {
     <nav className="fixed top-0 left-0 right-0 z-50 border-b border-green-200/60 bg-white/70 backdrop-blur-xl">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
         <a href="#" className="text-xl font-bold tracking-tight text-green-900">
-          Jake<span className="text-green-500"> Nicoll</span>
+          Fractional<span className="text-green-500"> GTM</span>
         </a>
 
         <div className="hidden items-center gap-8 md:flex">
@@ -40,7 +40,7 @@ export default function Navbar() {
             </a>
           ))}
           <a
-            href="https://www.linkedin.com/in/jake-nicoll-91b32a26a/"
+            href="#linkedin-placeholder"
             target="_blank"
             rel="noopener noreferrer"
             className="flex h-9 w-9 items-center justify-center rounded-full border border-slate-200 text-slate-500 transition-all hover:border-green-300 hover:text-green-600"
@@ -49,7 +49,7 @@ export default function Navbar() {
             <LinkedinIcon size={16} />
           </a>
           <a
-            href="mailto:jake@jakeoutbound.com"
+            href="#contact-placeholder"
             className="rounded-full bg-green-500 px-5 py-2.5 text-sm font-semibold text-white shadow-sm transition-all hover:bg-green-600 hover:shadow-md"
           >
             Get in Touch
@@ -86,7 +86,7 @@ export default function Navbar() {
                 </a>
               ))}
               <a
-                href="https://www.linkedin.com/in/jake-nicoll-91b32a26a/"
+                href="#linkedin-placeholder"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 text-base font-medium text-slate-700 transition-colors hover:text-green-600"
@@ -94,7 +94,7 @@ export default function Navbar() {
                 <LinkedinIcon size={16} /> LinkedIn
               </a>
               <a
-                href="mailto:jake@jakeoutbound.com"
+                href="#contact-placeholder"
                 className="mt-2 rounded-full bg-green-500 px-5 py-3 text-center text-sm font-semibold text-white shadow-sm transition-all hover:bg-green-600"
               >
                 Get in Touch

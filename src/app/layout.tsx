@@ -8,7 +8,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Jake Nicoll | Fractional GTM Engineer for Seed-Stage Startups",
+  title: "Fractional GTM Engineer for Seed-Stage Startups",
   description:
     "Fractional GTM engineer who builds and runs outbound systems for engineering-led startups. $2.2M pipeline built in 3 months. Proprietary tooling, AI-driven personalization, real-time dashboard. Not an agency — one person who does the thinking and the execution.",
 };

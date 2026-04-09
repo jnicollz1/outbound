@@ -12,7 +12,7 @@ export default function Footer() {
       <div className="mx-auto max-w-6xl px-6">
         <div className="flex flex-col items-center justify-between gap-8 md:flex-row">
           <a href="#" className="text-xl font-bold tracking-tight text-green-900">
-            Jake<span className="text-green-500"> Nicoll</span>
+            Fractional<span className="text-green-500"> GTM</span>
           </a>
 
           <div className="flex flex-wrap items-center justify-center gap-6">
@@ -34,7 +34,7 @@ export default function Footer() {
 
           <div className="flex items-center gap-3">
             <a
-              href="https://www.linkedin.com/in/jake-nicoll-91b32a26a/"
+              href="#linkedin-placeholder"
               target="_blank"
               rel="noopener noreferrer"
               className="flex h-9 w-9 items-center justify-center rounded-full border border-green-200 text-slate-500 transition-all hover:border-green-400 hover:text-green-600"
@@ -43,7 +43,7 @@ export default function Footer() {
               <LinkedinIcon size={16} />
             </a>
             <a
-              href="mailto:jake@jakeoutbound.com"
+              href="#contact-placeholder"
               className="rounded-full bg-green-500 px-5 py-2 text-sm font-semibold text-white transition-all hover:bg-green-600"
             >
               Get in Touch
@@ -53,7 +53,7 @@ export default function Footer() {
 
         <div className="mt-8 border-t border-green-200/60 pt-6 text-center">
           <p className="text-xs text-slate-400">
-            &copy; {new Date().getFullYear()} Jake Nicoll. jake@jakeoutbound.com
+            &copy; {new Date().getFullYear()} All rights reserved.
           </p>
         </div>
       </div>

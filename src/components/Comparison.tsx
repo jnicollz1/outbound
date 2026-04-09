@@ -66,7 +66,7 @@ export default function Comparison() {
             transition={{ duration: 0.5 }}
             className="rounded-2xl border-2 border-green-300 bg-green-50 p-6 shadow-lg shadow-green-500/10 md:p-8"
           >
-            <h3 className="mb-6 text-lg font-semibold text-green-700">Jake Nicoll — Fractional GTM</h3>
+            <h3 className="mb-6 text-lg font-semibold text-green-700">Your Fractional GTM Engineer</h3>
             <ul className="space-y-4">
               {us.map((item) => (
                 <li key={item} className="flex items-start gap-3">

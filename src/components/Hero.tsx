@@ -30,7 +30,7 @@ export default function Hero() {
           transition={{ duration: 0.5 }}
           className="mb-3 text-sm font-semibold uppercase tracking-wider text-green-600"
         >
-          Jake Nicoll &mdash; Fractional GTM Engineer
+          Fractional GTM Engineer
         </motion.div>
 
         <motion.h1
@@ -64,14 +64,14 @@ export default function Hero() {
           className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row"
         >
           <a
-            href="mailto:jake@jakeoutbound.com"
+            href="#contact-placeholder"
             className="group flex items-center gap-2 rounded-full bg-green-500 px-8 py-3.5 text-base font-semibold text-white shadow-lg shadow-green-500/25 transition-all hover:bg-green-600 hover:shadow-xl hover:shadow-green-500/30"
           >
-            jake@jakeoutbound.com
+            Get in Touch
             <ArrowRight size={18} className="transition-transform group-hover:translate-x-1" />
           </a>
           <a
-            href="https://www.linkedin.com/in/jake-nicoll-91b32a26a/"
+            href="#linkedin-placeholder"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 rounded-full border border-slate-200 bg-white px-8 py-3.5 text-base font-semibold text-slate-700 shadow-sm transition-all hover:border-green-300 hover:text-green-700"
